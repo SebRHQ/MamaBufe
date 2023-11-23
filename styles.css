@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*
+Színek: 
+Főszín: #F0274B
+Főszín sötétítve: #BD223E
+Kiemelt: #FFDB29
+*/
+
+body {
+    margin: 100px 0 0 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: #011111;
+}
+
+a {
+    color: #F0274B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BD223E;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Asap, Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.3em;
+    color: #011111;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3em;
+    color: #011111;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3em;
+    color: #011111;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+h4 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3em;
+    color: #011111;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+h5 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.3em;
+    color: #011111;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+h6 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3em;
+    color: #011111;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+.nav-list {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d9d9d9,
+                 -20px -20px 60px #ffffff;
+
+    margin: 0;
+    padding: 30px 0;
+    list-style-type: none;
+    justify-content: right;
+    font-weight: 600;
+}
+
+.nav-list a {
+        color: #011111;
+
+}
+.nav-list li {
+    padding: 0 50px 0 0;
+}

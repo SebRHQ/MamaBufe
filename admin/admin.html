@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+        How to dynamically change a web
+        page’s title using JavaScript ?
+    </title>
+</head>
+<body>
+    <h1 style="color: green">
+        GeeksforGeeks
+    </h1>
+ 
+    <b>
+        How to dynamically change a web
+        page’s title using JavaScript ?
+    </b>
+ 
+    <p>
+        Click on the button to change the page
+        title to: "The title has changed!"
+    </p>
+ 
+    <button onclick="changePageTitle()">
+        Change Page Title
+    </button>
+ 
+    <script type="text/javascript">
+        function changePageTitle() {
+            newPageTitle = 'The title has changed!';
+            document.querySelector('title').textContent
+                = newPageTitle;
+        }
+    </script>
+</body>
+</html>
