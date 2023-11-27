@@ -24,7 +24,7 @@
     max-width: 50%;
 }
 
-#figyelmeztetes {
+.figyelmeztetes {
     text-align: center;
     border-radius: 20px;
     border: solid 1px #FFEF85; 
@@ -32,7 +32,7 @@
     color: #171717;
 }
         
-#figyelmeztetes h5 {
+.figyelmeztetes h5 {
     color: #171717;
 }
 
@@ -96,6 +96,11 @@ label {
 }
 
 .vissza {
-    font-weight: 500;
-    margin: 30px 0 0 0;
+    margin: 0 0 0 -300px;
 }
+
+::placeholder {
+    margin: 0 0 0 -20000px;
+    color: gray;
+    opacity: 0.5; /* Firefox */
+  }

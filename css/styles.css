@@ -10,7 +10,7 @@ body {
     margin: 100px 0 0 0;
     padding: 0;
     background: #ffffff;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-family: Montserrat;
     color: #011111;
 }
 
@@ -25,7 +25,7 @@ a:hover {
 }
 
 h1 {
-    font-family: Asap, Montserrat, Arial, Helvetica, sans-serif;
+    font-family: Montserrat;
     font-size: 60px;
     font-weight: 700;
     line-height: 1.3em;
@@ -84,6 +84,11 @@ h6 {
     word-spacing: 0;
 }
 
+.fontchange
+ {
+    font-family: Motserrat !important;
+ }
+
 .nav-list {
     position: fixed;
     top: 0;
@@ -107,3 +112,152 @@ h6 {
 .nav-list li {
     padding: 0 50px 0 0;
 }
+
+.fodoboz {
+    text-align: center;
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow: inset 23px 23px 46px #f0f0f0,
+                inset -23px -23px 46px #ffffff;
+    padding: 5px 50px;
+}
+/*.figyelmeztetes {
+    text-align: center;
+    border-radius: 20px;
+    border: solid 1px #FFEF85; 
+    background-color: #ffd90031;
+    color: #171717;
+}
+        
+.figyelmeztetes h5 {
+    color: #171717;
+}*/
+
+.authGomb:hover, .authGomb:target {
+    cursor:pointer;
+}
+
+input {
+    font-family: Montserrat !important;
+    width: 100%;
+    padding: 15px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 10px;
+}
+label {
+    display: block;
+    margin: 20px 0 0 0;
+    text-align: left;
+}
+
+.also-menu {
+    color: #F0274B;
+    margin: 5px 0 30px 0;
+}
+
+.also-menu2 {
+    text-align: center;
+    margin: 5px 0 30px 0;
+}
+        
+.button {
+    font-family: Montserrat;
+    width: 100%;
+    border: solid 1px #F0274B;
+    background-color: #F0274B;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    font-family: Montserrat;
+    width: 100%;
+    background-color: #f0274c00;
+    border: solid 1px #F0274B;
+    border-radius: 10px;
+    color: #F0274B;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #bd223e;
+    border: solid 1px #bd223e;
+    transition:ease 0.2s;
+}
+
+.button:hover {
+    color: white;
+    background-color: #bd223e;
+    border: solid 1px #bd223e;
+    transition:ease 0.2s;
+}
+
+.vissza {
+    margin: 0 0 0 -300px;
+}
+
+::placeholder {
+    margin: 0 0 0 -20000px;
+    color: gray;
+    opacity: 0.5; /* Firefox */
+  }
+
+
+/* The Modal (background) */
+.popup {
+    
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .popup-tartalom {
+    background-color: #fefefe00;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #88888800;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .bezaras {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .bezaras:hover,
+  .bezaras:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

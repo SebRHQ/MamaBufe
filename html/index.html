@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Főoldal | Mama büféje</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
 </head>
 <body>
     <nav>
@@ -12,12 +13,58 @@
             <li><a href="#">Főoldal</a></li>
             <li><a href="#">Termékek</a></li>
             <li><a href="#">Kosár</a></li>
-            <li><a href="login.html"><i class="fa-solid fa-circle-user fa-xl"></i></a></li>
-            <!--li><a href="register.html">Regisztráció</a></-li>
-            <li><a href="login.html">Bejelentkezés</a></li>-->
+            <li><a class="authGomb"><i class="fa-solid fa-circle-user fa-xl"></i></a></li>
         </ul>
     </nav>
     <h1>Főoldal</h1>
-    <script src="https://kit.fontawesome.com/fd361d083e.js" crossorigin="anonymous"></script>
+<div id="authLogin" class="popup">
+  <div class="popup-tartalom">
+    <div class="fodoboz">
+        <br>
+        <span class="bezaras">&times;</span>
+        <br><br>
+        <form class="loginForm">
+            <label for="loginEmail">Email</label>
+            <input id="loginEmail" type="email" name="email" placeholder="valaki@gmail.com" autocomplete="current-password" required>
+            <label for="LoginPass">Jelszó</label>
+            <input id="LoginPass" type="password" name="password" placeholder="∗∗∗∗∗∗∗∗" required>
+            <br><br>
+            <button type="submit" class="button">Bejelentkezés</button>
+            <button type="button" class="button2 authRegGomb">Még nincs fiókom</button>
+            Nem tudsz belépni?
+            <p class="also-menu">Készíts új jelszót, ide kattintva.</p>
+            <br><br>
+        </form>
+    </div>
+  </div>
+
+</div>
+<div id="authRegister" class="popup">
+    <div class="popup-tartalom">
+        <div class="fodoboz">
+            <br>
+                <span class="bezaras">&times;</span>
+                <br><br>
+            <form>
+                <label for="regEmail">Email</label>
+                <input id="regEmail" required>
+                <label for="regUser">Felhasználónév</label>
+                <input id="regUser" type="text" required>
+                <label for="regPass">Jelszó</label>
+                <input id="regPass" type="password" required>
+                <label for="regPassUjra">Jelszó újra</label>
+                <input id="regPassUjra" type="password" required>
+                <br><br>
+                <button type="submit" class="button">Regisztrálás</button>
+                <button type="button" class="button2 authGomb">Már van fiókom</button>
+                <p class="also-menu2">A regisztrációval elfogadod az <a>általános szerződési feltételeinket</a>.</p>
+            </form>
+        </div>
+    </div>
+  
+  </div>
+<script src="../js/login.js"></script>
+<script src="../js/popup.js"></script>
+<script src="https://kit.fontawesome.com/fd361d083e.js" crossorigin="anonymous"></script>
 </body>
 </html>

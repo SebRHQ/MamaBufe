@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     loginF.addEventListener('submit', function(event){
         event.preventDefault();
 
-        const username = document.getElementById('email').value;
-        const pswd = document.getElementById('password').value;
+        const username = document.getElementById('loginEmail').value;
+        const pswd = document.getElementById('loginPass').value;
 
         const data = {
             email: username,
